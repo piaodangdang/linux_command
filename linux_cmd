@@ -1,0 +1,17 @@
+查看进程 ps -ef ｜　grep 进程名称
+
+查看端口占用 losf -i:port  port为端口号
+
+查看进程占用 top 
+
+查看网络状况 ifconfig
+
+查看网络带宽 ethtool 网卡名称 （通过ifconfig获取）
+
+网卡启动或停止  ifup或ifdown  网卡名称（通过ifconfig获取）
+
+###iperf3 网络性能评估工具:
+  iperf3 -s  启动服务端
+  iperf3 -c 服务端ip -t 时间 
+  
+ 
