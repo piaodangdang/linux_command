@@ -15,3 +15,9 @@
   iperf3 -c 服务端ip -t 时间 
   
  
+ 
+ 查看文件版本 strings .so ｜grep Build
+             strings .so | grep author
+             
+             
+ 
