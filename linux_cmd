@@ -19,5 +19,8 @@
  查看文件版本 strings .so ｜grep Build
              strings .so | grep author
              
+            
+ 查看发行版本 cat /etc/issue
+             
              
  
